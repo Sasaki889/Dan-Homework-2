@@ -1,0 +1,158 @@
+@font-face {
+	src: url(fonts/Oswald-VariableFont_wght.ttf);
+	font-family: Oswald;
+}
+@font-face {
+	src: url(fonts/AvenirLTStd-Book.otf);
+	font-family: Avenir;
+}
+
+body {
+	background-color: rgb(125, 224, 155);
+	font-family: Avenir;
+	font-size: 20px;
+	padding-top: 40px;
+	max-width: 1200px;
+	margin: auto;
+	padding-inline: 40px;
+}
+div {
+	padding-bottom: 20px;
+}
+.header {
+	font-family: Oswald;
+	border-style: none none double none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.main-content {
+}
+
+.card {
+	display: flex;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	max-width: 350px;
+	background-color: #e68427;
+	background: #e68427;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 3px 2px 14px rgba(#262631, 0.4);
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+.card_image {
+	flex: 0 0 120px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #e68427;
+}
+
+.card-content {
+	padding: 1rem;
+	background-color: #e68427;
+}
+
+.card_title {
+	font-size: 1.75rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	background-color: #e68427;
+}
+
+.card_snippet {
+	margin-bottom: -0.5rem;
+	background-color: #e68427;
+}
+
+.card_readmore {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	background-color: #e68427;
+}
+
+#header-bar {
+	padding: 0%;
+}
+#navigation-bar {
+	padding: 0%;
+	float: right;
+}
+.navigation {
+	display: inline-block;
+	font-style: Oswald;
+	padding-left: 20px;
+}
+
+#about-me {
+	height: auto;
+	overflow: auto;
+}
+#about-me-text {
+	width: 50%;
+	float: left;
+}
+#profile {
+	vertical-align: top;
+	float: right;
+	border-radius: 15%;
+}
+
+.skill {
+	height: 50px;
+}
+#skill-bar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-paragraph {
+	text-align: center;
+}
+#contact-list {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+.contact-method {
+	height: 50px;
+	display: inline-block;
+	justify-content: center;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.article-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-around;
+}
+
+.card {
+	width: 30%;
+	margin-bottom: 1rem;
+}
+.card_image {
+	border-radius: inherit;
+}
+
+@media screen and (max-width: 768px) {
+	.card {
+		width: 45%;
+	}
+}
+@media screen and (max-width: 576px) {
+	.card {
+		width: 90%;
+	}
+}
