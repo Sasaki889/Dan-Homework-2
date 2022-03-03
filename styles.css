@@ -27,12 +27,7 @@ a {
 	text-decoration: none;
 	color: black;
 }
-.main-content {
-}
 
-.card {
-	display: flex;
-}
 
 .card {
 	display: flex;
@@ -41,12 +36,16 @@ a {
 	background-color: #e68427;
 	background: #e68427;
 	color: black;
-	border-radius: 5px;
+	border-radius: 30px;
 	box-shadow: 3px 2px 14px rgba(#262631, 0.4);
 	text-decoration: none;
 	font-size: 1rem;
+	transition-timing-function: 200ms ease-in-out ;
 }
 
+.card:hover {
+	transition: translateY(-1rem);
+}
 .card_image {
 	flex: 0 0 120px;
 	background-size: contain;
@@ -70,12 +69,14 @@ a {
 .card_snippet {
 	margin-bottom: -0.5rem;
 	background-color: #e68427;
+	text-align: center;
 }
 
 .card_readmore {
 	text-transform: uppercase;
-	padding-bottom: 10px;
+	text-align: right;
 	background-color: #e68427;
+	border-radius: 50px;
 }
 
 #header-bar {
